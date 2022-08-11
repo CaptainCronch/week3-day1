@@ -23,10 +23,13 @@
     display: inline-block;
     font-size: 200%;
     margin: 10px;
+    flex-grow: 1;
 }
 
 #header-nav {
-    float: right;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
 }
 
 .nav {
@@ -48,10 +51,10 @@ body {
 }
 
 #plans-container {
-    display: block;
-    width: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 50px;
-    text-align: center;
 }
 
 .plan {
